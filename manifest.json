@@ -1,0 +1,24 @@
+{
+    "name": "Password finder",
+    "version": "1.0.0",
+    "description": "Get password for active url",
+    "manifest_version": 3,
+    "author": "Alexandru Tonu",
+    "permissions": [
+        "tabs"
+    ],
+    "host_permissions": [
+        "*://tonualexandru.com/*"
+    ],
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Password finder",
+        "default_icon": "/static/assets/images/key-48.png",
+        "icons": {
+            "16": "/static/assets/images/key-16.png",
+            "32": "/static/assets/images/key-32.png",
+            "48": "/static/assets/images/key-48.png",
+            "128": "/static/assets/images/key-128.png"
+        }
+    }
+}

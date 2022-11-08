@@ -1,0 +1,27 @@
+{
+  "name": "password-manager-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "live-server",
+    "sass": "sass --watch static/scss/$npm_config_first/:static/css/$npm_config_last/ --style=compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonualexandru/password-manager-plugin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "devDependencies": {
+    "jest": "^29.2.2",
+    "live-server": "^1.1.0",
+    "sass": "^1.55.0"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tonualexandru/password-manager-plugin/issues"
+  },
+  "homepage": "https://github.com/tonualexandru/password-manager-plugin#readme"
+}
